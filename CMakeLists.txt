@@ -450,6 +450,7 @@ set(LIBFASTFETCH_SRC
     src/modules/loadavg/loadavg.c
     src/modules/locale/locale.c
     src/modules/localip/localip.c
+    src/modules/vpnip/vpnip.c
     src/modules/memory/memory.c
     src/modules/monitor/monitor.c
     src/modules/netio/netio.c
@@ -554,6 +555,7 @@ if(LINUX)
         src/detection/loadavg/loadavg_linux.c
         src/detection/locale/locale_linux.c
         src/detection/localip/localip_linux.c
+        src/detection/vpnip/vpnip_linux.c
         src/detection/gamepad/gamepad_linux.c
         src/detection/media/media_linux.c
         src/detection/memory/memory_linux.c

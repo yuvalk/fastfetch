@@ -1,4 +1,5 @@
 #include "modules/modules.h"
+#include "modules/vpnip/vpnip.h"
 
 static FFModuleBaseInfo* A[] = {
     NULL,
@@ -152,6 +153,7 @@ static FFModuleBaseInfo* U[] = {
 static FFModuleBaseInfo* V[] = {
     &ffVersionModuleInfo,
     &ffVulkanModuleInfo,
+    &ffVpnIpModuleInfo,
     NULL,
 };
 
